@@ -1,3 +1,5 @@
+setclipboard("https://dsc.gg/axhub")
+
 if game.PlaceId == 3851622790 then --Break In 1 (Lobby)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/BreakIn1"))()
 elseif game.PlaceId == 4620170611 then --Break In 1 (In Game)

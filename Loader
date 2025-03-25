@@ -9,5 +9,6 @@ elseif game.PlaceId == 13864661000 then --Break In 2 (Lobby)
 elseif game.PlaceId == 13864667823 then --Break In 2 (In Game)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/BreakIn2"))()
 else
+    game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("[Script] Game Not Supported! Running alternative script..")
     error("Not Supported.")
 end

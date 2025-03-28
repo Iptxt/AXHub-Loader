@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/DCLINK"))();
+
 
 if game.PlaceId == 3851622790 then --Break In 1 (Lobby)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/BreakIn1"))()
@@ -12,3 +12,6 @@ else
     game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("[Script] Game Not Supported! Running alternative script..")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/Alternative"))()
 end
+
+task.wait(2)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/DCLINK"))();

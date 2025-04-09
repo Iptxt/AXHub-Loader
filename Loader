@@ -8,6 +8,8 @@ elseif game.PlaceId == 13864661000 then --Break In 2 (Lobby)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/BreakIn2"))()
 elseif game.PlaceId == 13864667823 then --Break In 2 (In Game)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/BreakIn2"))()
+elseif (game.PlaceId == 10246683491 or game.PlaceId == 10247184396) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/SchoolHorror"))()
 else
     game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("[Script] Game Not Supported! Running alternative script..")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/Alternative"))()

@@ -9,7 +9,7 @@ elseif game.PlaceId == 13864661000 then --Break In 2 (Lobby)
 elseif game.PlaceId == 13864667823 then --Break In 2 (In Game)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/BreakIn2"))()
 elseif (game.PlaceId == 10246683491 or game.PlaceId == 10247184396) then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/SchoolHorror"))()
+    game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[AX HUB] </font>Game is supported but need a config. Please go to <font color='#FAF206'>AX Hub Discord Server</font> to retrieve it. Check your clipboard for the discord link.")
 else
     game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[AX HUB] </font>Game Not Supported! Executing <font color='#FAF206'>Alternative</font> script..")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/Alternative"))()

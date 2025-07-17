@@ -1,4 +1,4 @@
-
+game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[AX HUB] </font>Script isn't loaded? try change <font color='#FAF206'>executor</font>.")
 
 if game.PlaceId == 3851622790 then --Break In 1 (Lobby)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/BreakIn1"))()

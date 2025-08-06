@@ -16,7 +16,7 @@ local nconfig = {
 local placeid = game.PlaceId
 
 if gameid[placeid] then
-        loadstring(game:HttpGet(url))();
+        loadstring(game:HttpGet(gameid[placeid]))();
 elseif nconfig[placeid] then
         game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[AX HUB] </font>Game is supported but need a config. Please go to <font color='#FAF206'>AX Hub Discord Server</font> to retrieve it. Check your clipboard for the discord link.")
 else

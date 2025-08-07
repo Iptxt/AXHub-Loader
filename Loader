@@ -1,4 +1,4 @@
-game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[AX HUB] </font>Script isn't loaded? try change <font color='#FAF206'>executor</font>.")
+game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Script isn't loaded? try change <font color='#FAF206'>executor</font>.")
 
 local gameid = {
         [3851622790] = "https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/BreakIn1",  -- Break In 1 (Lobby)
@@ -18,9 +18,9 @@ local placeid = game.PlaceId
 if gameid[placeid] then
         loadstring(game:HttpGet(gameid[placeid]))();
 elseif nconfig[placeid] then
-        game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[AX HUB] </font>Game is supported but need a config. Please go to <font color='#FAF206'>AX Hub Discord Server</font> to retrieve it. Check your clipboard for the discord link.")
+        game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Game is supported but need a config. Please go to <font color='#FAF206'>AX Hub Discord Server</font> to retrieve it. Check your clipboard for the discord link.")
 else
-        game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[AX HUB] </font>Game Is Not Supported! Executing <font color='#FAF206'>Alternative</font> script..")
+        game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Game Is Not Supported! Executing <font color='#FAF206'>Alternative</font> script..")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/Alternative"))()
 end
 

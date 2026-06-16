@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/Loader"))();
+loadstring(game:HttpGet("https://actualhub.github.io/main"))();
